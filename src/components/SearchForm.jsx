@@ -39,7 +39,7 @@ export class SearchForm extends Component {
   render() {
     return (
       <>
-        <h1>Search Series</h1>
+        <h1>Search Series App</h1>
         <form className="search-form">
           <input type="text" id="searchText" name="searchText" onChange={this.handleSearchText} placeholder="Type a serie name..." />
           <div>
